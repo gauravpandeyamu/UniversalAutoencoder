@@ -2,7 +2,7 @@ function nn = nnff(nn, x, y)
 
 % This code is taken from https://github.com/rasmusbergpalm/DeepLearnToolbox
 %NNFF performs a feedforward pass
-% nn = nnff(nn, x, y) returns an neural ...network structure with updated
+% nn = nnff(nn, x, y) returns an neural network structure with updated
 % layer activations, error and loss (nn.a, nn.e and nn.L)
 
     n = nn.n;   %No. of layers
